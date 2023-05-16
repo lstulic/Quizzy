@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizzy.API", "Quizzy\Quizzy.API.csproj", "{28E61F38-A9EA-4E64-8CB1-EBC1452B3F5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1B5F2643-65B1-4EA5-8C8C-6E039606C34C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizzy.Core", "Quizzy.Core\Quizzy.Core.csproj", "{CA7651D6-4D1B-4F33-A333-D10084971C6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{77E8B686-9821-4C85-8438-2A62F219E1D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizzy.Repository", "Quizzy.Repository\Quizzy.Repository.csproj", "{D93FF304-4B24-4253-A440-344D3F41E606}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{15D90750-8FB6-48D6-8CC1-781BA63AE5EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quizzy.Service", "Quizzy.Service\Quizzy.Service.csproj", "{646AE7C8-E1C7-4E06-8F53-5D8FFC2624DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{83002556-3EC0-43CD-A3FB-82F4400596D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28E61F38-A9EA-4E64-8CB1-EBC1452B3F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E61F38-A9EA-4E64-8CB1-EBC1452B3F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E61F38-A9EA-4E64-8CB1-EBC1452B3F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E61F38-A9EA-4E64-8CB1-EBC1452B3F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7651D6-4D1B-4F33-A333-D10084971C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7651D6-4D1B-4F33-A333-D10084971C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7651D6-4D1B-4F33-A333-D10084971C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7651D6-4D1B-4F33-A333-D10084971C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93FF304-4B24-4253-A440-344D3F41E606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93FF304-4B24-4253-A440-344D3F41E606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93FF304-4B24-4253-A440-344D3F41E606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93FF304-4B24-4253-A440-344D3F41E606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646AE7C8-E1C7-4E06-8F53-5D8FFC2624DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646AE7C8-E1C7-4E06-8F53-5D8FFC2624DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646AE7C8-E1C7-4E06-8F53-5D8FFC2624DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646AE7C8-E1C7-4E06-8F53-5D8FFC2624DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28E61F38-A9EA-4E64-8CB1-EBC1452B3F5A} = {83002556-3EC0-43CD-A3FB-82F4400596D5}
+		{CA7651D6-4D1B-4F33-A333-D10084971C6C} = {1B5F2643-65B1-4EA5-8C8C-6E039606C34C}
+		{D93FF304-4B24-4253-A440-344D3F41E606} = {77E8B686-9821-4C85-8438-2A62F219E1D9}
+		{646AE7C8-E1C7-4E06-8F53-5D8FFC2624DB} = {15D90750-8FB6-48D6-8CC1-781BA63AE5EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DFCC8C4-0DA8-4D30-A9D5-1C0823CC7969}
+	EndGlobalSection
+EndGlobal
